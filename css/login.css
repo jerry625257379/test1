@@ -1,0 +1,161 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,hr,menu,p,blockquote,ol,ul,dl,dd,td,th,figure,pre,button,input,textarea,select{margin:0;padding:0;}
+body{font: normal 100% "微软雅黑", "宋体",arial;color:#000;font-size:12px;width:100%;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500;}
+.numberArial{ font-family:Arial; font-style: normal;}
+ol,ul{list-style:none;}
+img{border:none;}
+a{text-decoration:none;outline:none;}
+input{color:#666; outline:none \9;}
+.logo,.head,.Nav ul,.list,.Nav ul li .box .box-list,.max-foot,.middle,.headerUl,.Mycontract,.Announce,.conten-box,.max-footer{
+  	width:960px;
+	margin:0 auto;
+  }
+.box,.content-bg-color,#footer{min-width:960px; margin:0 auto;}
+input{padding-left:4px;}
+.Nav ul,.head,.list,.Nav ul li .box .box-list,.foot .max-foot,.logo ,.Handlecontent,.left .headerUl,.raido-box ,.right form  .submit-box,.paging,.cost-detail ,ul,.payment-num ,.query-div,.businessIicence,.conten-box,.allIncome dl,
+.allIncome,.rent,.Announce ,.Announce  article header,.Mycontract header,.Mycontract article,.loginfooter,.Home-maxwidth  {
+	overflow:hidden;
+	zoom:1;
+  }	
+.home .max-line{
+	border-bottom:1px solid #eee;
+ }
+.head{
+	height:40px;
+	line-height:40px;
+ }
+.logo{
+   height:70px;
+   line-height:70px;
+ }
+.logo img{
+	float:left;
+	margin-top:25px;
+	}
+.content h2,.Nav{
+	font-family:'微软雅黑';
+ }
+.Nav{
+	background-color:#c32726;
+	color:#fff;
+	font-size:14px;
+	height:43px;
+	line-height:43px; 
+	}
+.Nav ul li{
+	float:left;
+	width:124px;
+	text-align:center; 
+  }
+.Nav ul li .box{ 
+    position:absolute;
+	color:#333;
+	width:100%;
+	left:0;
+	height:236px;
+	background-color:#f3f3f3;
+	padding-top:20px;
+	}
+.Nav ul li .box .box-list{
+	text-align:left;
+	}
+.Nav ul li .box .box-list dl{
+	float:left;
+	margin:65px 0 0 140px;
+	}
+.Nav ul li .box .box-list dl dt{font-size:24px;color:#3e3e3e;}
+.Nav ul li .box .box-list dl dd{
+	color:#666;
+	}
+.Nav ul li .box .box-list dl .number-color{
+	font-size:30px;
+	color:#d93a25;
+	}
+.Nav ul li .box .box-list dl dd img{margin:12px 5px 0 0;}
+.Nav ul li .box .box-list img{float:left;}
+
+.Nav ul li a{
+	display:block;
+	color:#fff;
+	}
+.Nav ul li a:hover{ 
+    background:#e53922; 
+  }
+.Nav ul .selected-li a{
+	 background:#e53922;
+	}
+.head ul{
+  float:left;
+  margin-right:40px;
+ }
+.head ul.mobile{
+  margin-left:200px; 
+  float:right;
+  margin:0;
+ }
+.head ul li{
+  float:left;
+  margin:0 5px;
+ }
+.head ul .info-num a{color:red;font-size:14px; }
+.head ul li img{ 
+  margin-left:3px;
+ }
+.head ul.mobile li img{
+  vertical-align:-3px;
+ }
+.head ul.mobile li a{ 
+  color:#55a9de;
+ }
+
+/****************************************login*******************************/
+
+.page .login-head ul,.page .loginContent .box{width:1100px;margin:0 auto;}
+
+.page .login-head ul li{float:left; line-height:100px;}
+.page .login-head ul li img{ vertical-align:middle;}
+.page .login-head ul .right-li{float:right;}
+.page .loginContent{background-color:#f2f2f2; overflow:hidden;zoom:1;}
+.page .loginContent section{ float:left;margin-left:30px;}
+.page .loginContent .box{padding-top:45px; display:block; height:475px; }
+.page .loginContent aside{border:1px solid #e2e2e2;float:right; margin-right:34px; width:384px; background-color:#fff; border-top:2px solid #e54130; box-shadow:0px 4px 0px #e2e2e2 ;position:relative; height:394px;position:relative;}
+
+.page .loginContent aside form{width:300px; margin:0 auto;}
+.page .loginContent aside form input{ width:292px; height:42px; line-height:42px \9; font-size:14px;}
+.page .loginContent aside form h2{ line-height:70px; font-size:18px; color:#333;}
+.page .loginContent aside form div{margin-bottom:15px;}
+
+.page .loginContent aside form .RemberPassword li{float:left;}
+.page .loginContent aside form .RemberPassword li a{color:#666;}
+.page .loginContent aside form .RemberPassword li a:hover{ text-decoration:underline;color:#90C;}
+.page .loginContent aside form .RemberPassword li input,.page .loginContent aside form .RemberPassword li{width:auto; height:auto; line-height:normal; vertical-align:-2px;}
+.page .loginContent aside form .RemberPassword .remberpsd{float:right;}
+.page .loginContent aside form .RemberPassword li input{ margin-right:5px;}
+.page .loginContent aside form .loginBtn{text-align:center;line-height:46px; margin:35px 0 60px 0; background-color:#d02a1e;color:#fff; font-size:20px; cursor:pointer;-moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;}
+.page .loginContent aside  footer{ line-height:44px; text-align:center; background-color:#f4f4f4;color:#666; position:absolute;bottom:0;left:0px; width:100%;}
+.page .loginContent aside  footer a{font-size:14px;}
+/********************************二维码切换**********************************/
+#QR-Code-swich{ position:absolute; width:50px; height:50px; right:0px ;top:0px; overflow:hidden;}
+#QR-Code-swich img{ position:absolute; right:-50px ;top:0px;}
+.page .loginContent aside  .QR-box{ text-align:center;  line-height:265px; }
+.page .loginContent aside  .QR-box img{ vertical-align:-30px;}
+.page .loginContent aside form .pub-middle{ margin:0;}
+
+.loginfooter{width:1100px; margin:0 auto; height:292px; color:#666;}
+.loginfooter dl{float:left; width:180px;}
+.loginfooter dl dt a{color:#333;}
+.loginfooter .F-dl{width:240px;padding-left:10px;margin-right:130px;}
+.loginfooter dl dt{margin:35px 0 0 0; font-size:14px;color:#333; font-weight:bold;margin-bottom:15px;}
+.loginfooter dl dt img{ vertical-align:middle;}
+.loginfooter dl dd{ line-height:28px;}
+.loginfooter .F-dl dd{ line-height:20px;}
+.loginfooter .F-dl dt{margin-bottom:0px;}
+.loginfooter dl .dd-box{padding:20px 0 ; word-break:break-all;}
+.loginfooter dl .dd-foot{padding:24px 0 62px 0; text-align:center;}
+.loginfooter dl .dd-foot img{margin-right:10px; cursor:pointer;}
+
+
+
+
+
